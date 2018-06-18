@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aframe-react": "^4.4.0",
     "font-awesome": "^4.7.0",
     "jquery": "^2.1.4",
     "materialize-css": "^0.100.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-fontawesome": "^1.6.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "react-typed": "^1.0.8"
   },
