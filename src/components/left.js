@@ -12,8 +12,7 @@ class Left extends Component {
         <p> dont wanna scare with my dp </p>
             <img className="falconLogo circle" src={varunLogo } alt="" />
             <div link="white" className= "falconLeftCareerContent ">
-             <h4><Link to="/profession">Profession</Link></h4>
-             <h4><Link to="/education">Education</Link></h4>
+             <h4><Link to="/timeline">My Timeline</Link></h4>
               <h4><Link to="/hobbies">Hobbies</Link></h4>
               <h4><Link to="/swot">S.W.O.T</Link></h4>
             </div>

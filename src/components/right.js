@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import Typed from 'react-typed';
 import { Switch, Route } from "react-router-dom";
 import Swot from "./swot";
+import Timeline from "./timeline";
 
 const Main = () => (
   <Switch>
   <Route exact path='/swot' component={Swot}/>
+  <Route exact path='/timeline' component={Timeline}/>
   </Switch>
 );
 
@@ -25,8 +27,8 @@ class Right extends Component {
 
   render() {
     return (
-      <div className="Right">
-        <div className ="center-align">
+      <div className="falconRight">
+        <div className ="falconRightTop center-align">
         <h1> 
         <Typed 
                 strings={varuns}
@@ -38,7 +40,7 @@ class Right extends Component {
         </h1>
         <hr />
       </div>
-      <div>
+      <div className="falconRightBottom">
         <Main/>
       </div>
       </div>
