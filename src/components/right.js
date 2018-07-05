@@ -22,9 +22,9 @@ const varuns = [
   'Varun the cyclist',
   'Varun the programmer',
   'Varun the noobie',
-  'Varun the animer lover',
+  'Varun the anime lover',
   'Varun the procastinator',
-  'Varun is just Varun '
+  'Varun is Varun '
 ];
 
 class Right extends Component {
