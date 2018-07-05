@@ -42,7 +42,7 @@ class Timeline extends Component {
     <p>High School life</p>
     <ul>
       <li>Studied at A.K.T Academy Matriculation Higher secondary school, kallakurichi</li>
-      <li>Got 2015/1200 and 182.25 Engineering Aggregate</li>
+      <li>Got 1054/1200 and 182.25 Engineering Aggregate</li>
       <li>Got 4 th place in State level Yoga Competition</li>
     </ul>
   </div>

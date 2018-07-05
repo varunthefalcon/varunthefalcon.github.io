@@ -11,7 +11,7 @@ const facebook = "https://www.facebook.com/varunthefalcon";
 class Left extends Component {
 
   handlesurprise = () => {
-    alert("wow, Thank you for exploring even small details of my website. Thank you for visiting!!!!");
+    alert("wow, Thank you for visiting and exploring even small details of my website!!!!");
   }
 
   render() {
