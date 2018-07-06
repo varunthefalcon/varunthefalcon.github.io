@@ -9,6 +9,9 @@ import Right from "./components/right";
 import './assets/css/App.css';
 
 class App extends Component {
+  componentDidMount(){
+    console.log("Full Source code is in my Portfolio repository");
+  }
   render() {
     return (
       <div className="row">

@@ -14,7 +14,7 @@ class Swot extends Component {
 
             <div className=" hoverable card small">
             <div className="card-image waves-effect waves-block waves-light">
-              <img className="activator" src={Splaceholder} />
+              <img  className="activator" src={Splaceholder} alt="" />
             </div>
             <div className="card-reveal">
               <span className="card-title grey-text text-darken-4">Strength<i className="right">x</i></span>
@@ -30,7 +30,7 @@ class Swot extends Component {
 
             <div className=" hoverable card small">
             <div className="card-image waves-effect waves-block waves-light">
-              <img className="activator" src={Wplaceholder} />
+              <img  className="activator" src={Wplaceholder} alt="" />
             </div>
             <div className="card-reveal">
               <span className="card-title grey-text text-darken-4">Weakness<i className="right">x</i></span>
@@ -47,7 +47,7 @@ class Swot extends Component {
                 <div className="col s6">
                 <div className=" hoverable card small">
             <div className="card-image waves-effect waves-block waves-light">
-              <img className="activator" src={Oplaceholder} />
+              <img  className="activator" src={Oplaceholder} alt="" />
             </div>
             <div className="card-reveal">
               <span className="card-title grey-text text-darken-4">Opportunity<i className="right">x</i></span>
@@ -62,7 +62,7 @@ class Swot extends Component {
                 <div className="col s6">
                 <div className=" hoverable card small">
             <div className="card-image waves-effect waves-block waves-light">
-              <img className="activator" src={Tplaceholder} />
+              <img  className="activator" src={Tplaceholder} alt="" />
             </div>
             <div className="card-reveal">
               <span className="card-title grey-text text-darken-4">Threat<i className="right">x</i></span>

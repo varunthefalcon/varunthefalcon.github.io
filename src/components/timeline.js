@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import VarunLogo from '../assets/logo.svg';
 import 'react-vertical-timeline-component/style.min.css';
 
 class Timeline extends Component {
