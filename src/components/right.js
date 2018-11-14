@@ -10,7 +10,6 @@ const Main = () => (
   <Route exact path='/swot' component={Swot}/>
   <Route exact path='/timeline' component={Timeline}/>
   <Route exact path='/project' component={Project}/>
-  <Route exact path='/*' component={Timeline}/>
   </Switch>
 );
 
@@ -28,7 +27,7 @@ const varuns = [
 ];
 
 class Right extends Component {
-
+  
   render() {
     return (
       <div className="falconRight">

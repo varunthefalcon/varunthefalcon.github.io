@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import mimo from '../assets/media/mimo.png';
+import portfolio from '../assets/media/project3.png';
 import atm from '../assets/media/atm.png';
 import arduino from '../assets/media/arduino.png';
 import $ from 'jquery'; 
@@ -100,6 +101,31 @@ Arduino is the first time we got exposed to coding in a fun way. We tried small 
           </div>
           </div>
         </li>
+        <li>
+            <div className="collapsible-header "> My Portfolio<span className="badge">2017</span></div>          
+              <div className="collapsible-body">
+              <div className="row">
+              <div className="col s4">
+              <div>
+              <a target="__blank" href="/sambar"><img className="projectImage hoverable" src={portfolio} alt="" /></a>
+              </div>
+              </div>
+              <div className="col s8">
+              <div>
+    <span>
+    Arduino is the first time we got exposed to coding in a fun way. We tried small DIY like <b>Line follower, Accident Alert System, GPRS-Burglar alarm</b>. Everything was a mini project kind of played around with Arduino and learnt basics of coding.
+    </span>                 
+    <div>
+    <br/><b>Softwares : </b><span>Arduino</span>
+    </div>
+    <div>
+                <br/><b>tl;dr : </b><span>Just abstract of project</span>
+                </div>     
+    </div>
+              </div>
+              </div>
+              </div>
+            </li>
       </ul>
             
       </div>
