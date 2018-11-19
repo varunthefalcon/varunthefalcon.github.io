@@ -1,0 +1,4 @@
+.checkbox-red[type="checkbox"].filled-in:checked + label:after{
+    border: 2px solid #ff0000;
+    background-color: #ff0000;
+}
