@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "stable"
+  
+cache:
+  directories:
+    - node_modules
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: 9a8c0804e44a57cb9972b40f8db3fb29230bb439  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
