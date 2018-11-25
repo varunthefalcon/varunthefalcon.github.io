@@ -4,15 +4,16 @@
 
 ## STACK ##
 
-..* ReactJs
-..* Redux
-..* PHP / MySql
-..* Travis CI
+* ReactJs
+* Redux
+* PHP / MySql
+* Travis CI
 
 ## Usage ##
 
-..* Homepage  -  My portfolio
-..* /sambar   -  ToDo-list 
-..* /nuggets  -  Recipe Finder
+* Homepage  -  My portfolio
+* /sambar   -  ToDo-list 
+* /nuggets  -  Recipe Finder
+* /choco    -  Expense Manager
 
-### I code for fun, pardon my professionalism in this repo... ###
+##### I code for fun, pardon my professionalism in this repo... #####
