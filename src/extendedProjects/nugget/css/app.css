@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    padding : 5px;
+}
+
+.recipe-item {
+    padding: 15px;        
+}
+
+.recipe-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.recipe-text{
+    display: inline-block;
+    text-align: left;
+    padding-right: 10px;
+    width: 400px
+}
+
+.recipe-img{
+    display: inline-block;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border:  1px solid black;
+    border-radius: 2px;
+}
+.recipeStar{
+    cursor: pointer;
+    font-size: 30px;
+    margin-right: 50px;
+    top : 0px;
+}

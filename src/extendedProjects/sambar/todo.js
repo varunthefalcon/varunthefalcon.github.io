@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Task from './task';
-import '../assets/css/material.css';
-import '../assets/css/sambar.css';
+import '../../assets/css/material.css';
+import '../../assets/css/sambar.css';
 import axios from 'axios';
 import { Modal, Button } from 'react-materialize';
 

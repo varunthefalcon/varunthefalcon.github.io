@@ -4,7 +4,8 @@ import '../node_modules/materialize-css/dist/js/materialize.js';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import Left from "./components/left";
 import Right from "./components/right";
-import Todo from "./components/todo";
+import Todo from "./extendedProjects/sambar/todo";
+import Recipe from "./extendedProjects/nugget/";
 import { Switch, Route } from "react-router-dom";
 import './assets/css/App.css';
 
@@ -12,6 +13,7 @@ import './assets/css/App.css';
 const RouteSplitter = () => (
   <Switch>
   <Route exact path='/sambar' component={Todo}/>
+  <Route exact path='/nuggets' component={Recipe}/>
   <Route path='/' component={Main}/>
   </Switch>
 );

@@ -16,15 +16,12 @@ class Task extends Component {
         this.handleCompletion = this.handleCompletion.bind(this);
         this.handleupdates = this.handleupdates.bind(this);
       }
-
       handleCompletion(event){
-            let priority =  this.state.priority
-            let done = !this.state.done
-            this.setState({done : done})
-            this.handleupdates(priority, done)
-        
+        let priority =  this.state.priority
+        let done = !this.state.done
+        this.setState({done : done})
+        this.handleupdates(priority, done)
       }
-
       handlePriority(event) {
         let priority =  !this.state.priority
         let done = this.state.done
@@ -52,7 +49,7 @@ class Task extends Component {
       }
 
  render() {
-     
+
     return (  
         <div>  
         <div className="divider"></div>        
@@ -79,4 +76,4 @@ class Task extends Component {
     }
 }
 
-export default Task; 
+export default Task;

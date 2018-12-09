@@ -4,16 +4,14 @@
 
 ## STACK ##
 
-* ReactJs
-* Redux
+* ReactJs / Redux
 * PHP / MySql
-* Travis CI
 
 ## Usage ##
 
-* Homepage  -  My portfolio
-* /sambar   -  ToDo-list 
-* /nuggets  -  Recipe Finder
-* /choco    -  Expense Manager
+* [Homepage](http://varun-thefalcon.github.io/)  -  Portfolio
+* [/sambar](http://varun-thefalcon.github.io/sambar)   -  ToDo-list 
+* [/nuggets](http://varun-thefalcon.github.io/nuggets)  -  Recipe Finder
+* [/choco](http://varun-thefalcon.github.io/choco)    -  Expense Manager
 
-##### I code for fun, pardon my professionalism in this repo... #####
+##### I code for fun, pardon my professionalism in this repo... #####  :blush:
