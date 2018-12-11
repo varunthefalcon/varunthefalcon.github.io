@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.8fcc4fdf.css",
-  "main.css.map": "static/css/main.8fcc4fdf.css.map",
-  "main.js": "static/js/main.fa9fd5ed.js",
-  "main.js.map": "static/js/main.fa9fd5ed.js.map",
+  "main.css": "static/css/main.4c1c3b06.css",
+  "main.css.map": "static/css/main.4c1c3b06.css.map",
+  "main.js": "static/js/main.c05b518a.js",
+  "main.js.map": "static/js/main.c05b518a.js.map",
   "static/media/O.png": "static/media/O.1ab291c2.png",
   "static/media/Roboto-Bold.woff": "static/media/Roboto-Bold.eed9aab5.woff",
   "static/media/Roboto-Bold.woff2": "static/media/Roboto-Bold.c0f1e4a4.woff2",
@@ -25,5 +25,6 @@
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
   "static/media/mimo.png": "static/media/mimo.96775120.png",
   "static/media/project3.png": "static/media/project3.7d1b3fd9.png",
-  "static/media/sasuke.jpg": "static/media/sasuke.9eb227c1.jpg"
+  "static/media/sasuke.jpg": "static/media/sasuke.9eb227c1.jpg",
+  "static/media/tempo.jpg": "static/media/tempo.8faedcf1.jpg"
 }

@@ -4,6 +4,7 @@ import portfolio from '../assets/media/project3.png';
 import atm from '../assets/media/atm.png';
 import arduino from '../assets/media/arduino.png';
 import $ from 'jquery'; 
+// import {Link} from "react-router-dom";
 
 class Project extends Component {
 
@@ -102,7 +103,7 @@ Arduino is the first time we got exposed to coding in a fun way. We tried small 
           </div>
         </li>
         <li>
-            <div className="collapsible-header "> My Portfolio<span className="badge">2017</span></div>          
+            <div className="collapsible-header "> My Portfolio<span className="badge">2018</span></div>          
               <div className="collapsible-body">
               <div className="row">
               <div className="col s4">
@@ -113,13 +114,21 @@ Arduino is the first time we got exposed to coding in a fun way. We tried small 
               <div className="col s8">
               <div>
     <span>
-    Arduino is the first time we got exposed to coding in a fun way. We tried small DIY like <b>Line follower, Accident Alert System, GPRS-Burglar alarm</b>. Everything was a mini project kind of played around with Arduino and learnt basics of coding.
-    </span>                 
+    Built with ReactJs/Redux, PHP, MySQL, MaterializeCSS. Also incorporated 
+    minor projects with backend API on Heroku and hosted with Github.</span>                 
     <div>
-    <br/><b>Softwares : </b><span>Arduino</span>
+      <div style={{textAlign : "left", color:"#000 !important"}}>
+    <br/><b>Usage: </b>
+    <ul >  
+
+    <li><a style={{textAlign : "left", color:"#fff !important"}} target = "__blank" href="/sambar" >/sambar</a>     - ToDo list</li>
+    <li><a target = "__blank" href="/nuggets">/nuggets</a>    - Recipe finder</li>
+    <li><a target = "__blank" href="/choco">/choco  </a>    - Expense Manager</li>
+    </ul>
+    </div>
+    <br/><b>Stack : </b><span>ReactJs, PHP, MySql</span>
     </div>
     <div>
-                <br/><b>tl;dr : </b><span>Just abstract of project</span>
                 </div>     
     </div>
               </div>

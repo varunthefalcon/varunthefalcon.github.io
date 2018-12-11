@@ -3,7 +3,7 @@ import App from "./components/App";
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import rootreducer from './reducer';
-
+import "./css/app.css"
 const store = createStore(rootreducer);
 
 store.subscribe ( () => console.log(store.getState()) );
@@ -14,8 +14,7 @@ render()  {
     return (
                 <Provider store = { store }>
                 <App /> 
-                </Provider> , 
-                document.getElementById('root') 
+                </Provider>
     );
     }
 }

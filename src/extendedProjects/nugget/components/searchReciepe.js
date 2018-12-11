@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Form, FormGroup, FormControl, ControlLabel, Button } from 'react-bootstrap';
+import { Button } from 'react-materialize';
 import {connect} from "react-redux";
 import { setRecipes } from "../actions";
 import RecipeList from "./RecipeList";
@@ -17,7 +17,6 @@ class SearchReciepes extends Component{
     }
 
     search(event){
-        debugger;
         event.preventDefault();
         let { ingredients } = this.state;
         this.setState({ noResultsMessage : ( ingredients === null || ingredients === "" ) ? "please enter some Ingredients" : "", resultFound: false})
@@ -41,18 +40,17 @@ class SearchReciepes extends Component{
     render (){
         return (
             <div> 
-                <Form inline  onSubmit = { (e) => this.search(e) }>
-                <FormGroup >
-                    <ControlLabel> Ingredients </ControlLabel>
+                <form  onSubmit = { (e) => this.search(e) }>
                     {"   "}
-                    <FormControl 
+                    <div className="input-field">  
+                    <input 
                         type="text" 
-                        placeholder="garlic, chicken"
                         onChange = {event => this.setState({ ingredients : event.target.value})} />
-                    </FormGroup>
+                        <label>  Ingredients :  </label>
+                        </div>
                     {"   "}                    
                 <Button type= "submit"> Submit </Button>
-                </Form>
+                </form>
                 {  ( this.state.resultFound ) ?  <RecipeList />  : <span> {this.state.noResultsMessage} </span>}
             </div>
         )

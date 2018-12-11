@@ -22,7 +22,6 @@ class Recipelist extends Component {
 
     return (
         <div className="recipe-item">
-        asd
         <div 
             title="Mark Favourite!"
             className="recipeStar"
@@ -31,16 +30,18 @@ class Recipelist extends Component {
             { this.state.favourtied ? <span>&#9733;</span> : <span>&#9734;</span> }
         </div>
         <div className="recipe-text">
-        <a href={recipe.href}> 
+        <a target="__blank" href={recipe.href}> 
             <h4> { recipe.title } </h4>  
         </a>
         <p>{recipe.ingredients}</p>
         </div>
+        <a target="__blank" href={recipe.href}> 
         <img 
             src={recipe.thumbnail} 
             alt={recipe.title} 
             className="recipe-img"
         />
+        </a>
         </div>
     );
 }

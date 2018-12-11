@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import SearchReciepe from "./searchReciepe";
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import rootreducer from './reducer';
+import rootreducer from '../reducer';
 
 const store = createStore(rootreducer);
 

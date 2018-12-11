@@ -6,20 +6,11 @@ import Left from "./components/left";
 import Right from "./components/right";
 import Todo from "./extendedProjects/sambar/todo";
 import Recipe from "./extendedProjects/nugget/";
+import Choco from "./extendedProjects/choco";
 import { Switch, Route } from "react-router-dom";
 import './assets/css/App.css';
 
-
-const RouteSplitter = () => (
-  <Switch>
-  <Route exact path='/sambar' component={Todo}/>
-  <Route exact path='/nuggets' component={Recipe}/>
-  <Route path='/' component={Main}/>
-  </Switch>
-);
-
-class Main extends Component {
-  render() {
+const main = () => {
     return (
   <div className="row">
   <div className="col s4 falconLeft falconAnimatedGradient">
@@ -30,7 +21,6 @@ class Main extends Component {
   </div>
 </div>
 );
-  }
 }
 
 class App extends Component {
@@ -39,7 +29,12 @@ class App extends Component {
   }
   render() {
     return (
-      <RouteSplitter />
+      <Switch>
+  <Route exact path='/sambar' component={Todo}/>
+  <Route exact path='/nuggets' component={Recipe}/>
+  <Route exact path='/choco' component={Choco}/>
+  <Route path='/' component={main}/>
+  </Switch>
     );
   }
 }
