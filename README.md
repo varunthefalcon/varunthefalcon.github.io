@@ -14,4 +14,6 @@
 * [/nuggets](http://varun-thefalcon.github.io/nuggets)  -  Recipe Finder
 * [/choco](http://varun-thefalcon.github.io/choco)    -  Expense Manager
 
+(currently having troubles with React-Router and gh-pages for extended prijects. Refer commit c7d83c9084565755397009471dbd6593bc5d326b)
+
 ##### I code for fun, pardon my professionalism in this repo... #####  :blush:
