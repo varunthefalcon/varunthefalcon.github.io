@@ -5,8 +5,10 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter } from 'react-router-dom';
 
+console.log(process.env.PUBLIC_URL);
+
 ReactDOM.render(          
-<BrowserRouter basename="/">
+<BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
 <App />
 </BrowserRouter>  , document.getElementById('root'));
 registerServiceWorker();

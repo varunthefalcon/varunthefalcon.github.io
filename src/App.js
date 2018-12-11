@@ -30,10 +30,10 @@ class App extends Component {
   render() {
     return (
       <Switch>
-  <Route exact path='/sambar' component={Todo}/>
-  <Route exact path='/nuggets' component={Recipe}/>
-  <Route exact path='/choco' component={Choco}/>
-  <Route path='/' component={main}/>
+  <Route exact path={process.env.PUBLIC_URL +'/sambar'} component={Todo}/>
+  <Route exact path={process.env.PUBLIC_URL +'/nuggets'} component={Recipe}/>
+  <Route exact path={process.env.PUBLIC_URL +'/choco'} component={Choco}/>
+  <Route path={process.env.PUBLIC_URL + "/"} component={main}/>
   </Switch>
     );
   }
