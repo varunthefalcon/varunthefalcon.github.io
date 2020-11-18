@@ -22,7 +22,6 @@ class Left extends Component {
             <div link="white" className= "falconLeftCareerContent ">
              <h4  className="links"><Link style={{color:"#fff"}}  to="/timeline">My Timeline</Link></h4>
               <h4 className="links" ><Link style={{color:"#fff"}} to="/project">Projects</Link></h4>
-              <h4 className="links" ><Link style={{color:"#fff"}} to="/swot">S.W.O.T</Link></h4>
             </div>
             <div >
             <a target = "__blank" href={github} ><FontAwesome  className="socialMedia links " name='github-square' size='2x'/> </a>
