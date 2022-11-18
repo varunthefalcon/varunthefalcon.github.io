@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/varunthefalcon.github.io/static/css/main.026ad9cf.css",
-    "main.js": "/varunthefalcon.github.io/static/js/main.5514dffe.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/varunthefalcon.github.io/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/sasuke.jpg": "/varunthefalcon.github.io/static/media/sasuke.83337cc481dc085a9564.jpg",
-    "static/media/arduino.png": "/varunthefalcon.github.io/static/media/arduino.244ae144d21f59f5b226.png",
-    "static/media/fontawesome-webfont.eot": "/varunthefalcon.github.io/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/varunthefalcon.github.io/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/project3.png": "/varunthefalcon.github.io/static/media/project3.682707819dd8aa569dfd.png",
-    "static/media/atm.png": "/varunthefalcon.github.io/static/media/atm.502dfcda6abb4f52a352.png",
-    "static/media/mimo.png": "/varunthefalcon.github.io/static/media/mimo.87e0759a0619b871b633.png",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/varunthefalcon.github.io/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/varunthefalcon.github.io/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/W.png": "/varunthefalcon.github.io/static/media/W.68b1d36a22c36199ee0f.png",
-    "static/media/O.png": "/varunthefalcon.github.io/static/media/O.101fb1e2ee0098366933.png",
-    "static/media/S.png": "/varunthefalcon.github.io/static/media/S.50718382aefbfbd9ba3e.png",
-    "static/media/tempo.jpg": "/varunthefalcon.github.io/static/media/tempo.ebdc70ea5c434a27bad1.jpg",
-    "index.html": "/varunthefalcon.github.io/index.html",
-    "main.026ad9cf.css.map": "/varunthefalcon.github.io/static/css/main.026ad9cf.css.map",
-    "main.5514dffe.js.map": "/varunthefalcon.github.io/static/js/main.5514dffe.js.map"
+    "main.css": "/static/css/main.22720bbb.css",
+    "main.js": "/static/js/main.6efa902c.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/sasuke.jpg": "/static/media/sasuke.83337cc481dc085a9564.jpg",
+    "static/media/arduino.png": "/static/media/arduino.244ae144d21f59f5b226.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/project3.png": "/static/media/project3.682707819dd8aa569dfd.png",
+    "static/media/atm.png": "/static/media/atm.502dfcda6abb4f52a352.png",
+    "static/media/mimo.png": "/static/media/mimo.87e0759a0619b871b633.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/W.png": "/static/media/W.68b1d36a22c36199ee0f.png",
+    "static/media/O.png": "/static/media/O.101fb1e2ee0098366933.png",
+    "static/media/S.png": "/static/media/S.50718382aefbfbd9ba3e.png",
+    "static/media/tempo.jpg": "/static/media/tempo.ebdc70ea5c434a27bad1.jpg",
+    "index.html": "/index.html",
+    "main.22720bbb.css.map": "/static/css/main.22720bbb.css.map",
+    "main.6efa902c.js.map": "/static/js/main.6efa902c.js.map"
   },
   "entrypoints": [
-    "static/css/main.026ad9cf.css",
-    "static/js/main.5514dffe.js"
+    "static/css/main.22720bbb.css",
+    "static/js/main.6efa902c.js"
   ]
 }
